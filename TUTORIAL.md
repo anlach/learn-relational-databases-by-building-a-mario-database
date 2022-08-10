@@ -2142,7 +2142,7 @@ Use `character_id` and `action_id` to create a composite primary key for this ta
 
 ### 1530.1
 
-This table will have multiple rows with the same `character_id`, and multiple rows the same `action_id`. So neither of them are unique. But you will never have the same `character_id` and `action_id` in a single row. So the two columns together can be used to uniquely identify each row. View the details of the `character_actions` table to see your composite key.
+This table will have multiple rows with the same `character_id` and multiple rows with the same `action_id`. So neither of them are unique. But you will never have the same `character_id` and `action_id` in a single row. So the two columns together can be used to uniquely identify each row. View the details of the `character_actions` table to see your composite key.
 
 #### HINTS
 
